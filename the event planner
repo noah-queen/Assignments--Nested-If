@@ -1,0 +1,28 @@
+#task 1 
+#attendees = input("Enter number of attendees: ")
+#venue = "large hall" if attendees > 100 else "conference room"
+#print(venue)
+
+#answer
+attendees = int (input("Enter number of attendees: "))
+venue = "large hall" if attendees > 100 else "conference room"
+print(venue)
+
+#task 2
+attendees = int (input("Enter number of attendees: "))
+venue = "large hall" if attendees > 100 else "conference room"
+print(venue) 
+theme = input("whats the theme, a party or a class?")
+if theme == "a party": print("get an audio system!")
+elif theme == "a class": print("get a projector")
+
+#task 3 
+attendees = int (input("Enter number of attendees: "))
+venue = "large hall" if attendees > 100 else "conference room"
+print(venue) 
+theme = input("whats the theme, a party or a class?")
+if theme == "a party": print("get an audio system!")
+elif theme == "a class": print("get a projector")
+catering = input("do you want vegitarian? yes/no")
+if catering == "yes": print("get veggie delight caterers!")
+elif catering == "no": print("get gourmet meals caterers!")
